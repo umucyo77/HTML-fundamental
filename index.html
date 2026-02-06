@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" title="Back to Table">Home</a> | 
+        <a href="about.html" title="Current Page">About & Registration</a>
+    </nav>
+
+    <img src="https://via.placeholder.com/600x200" alt="University Campus Banner" width="600" height="200">
+
+    <h2>HTML Formatting Guide</h2>
+    <table >
+        <thead>
+            <tr>
+                <th>Tag Name</th>
+                <th>Description</th>
+                <th>Example Output</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>&lt;b&gt;</td><td>Bold text</td><td><b>Bold Text</b></td></tr>
+            <tr><td>&lt;i&gt;</td><td>Italic text</td><td><i>Italic Text</i></td></tr>
+            <tr><td>&lt;u&gt;</td><td>Underlined text</td><td><u>Underlined</u></td></tr>
+            <tr><td>&lt;strong&gt;</td><td>Important text</td><td><strong>Strong Text</strong></td></tr>
+            <tr><td>&lt;em&gt;</td><td>Emphasized text</td><td><em>Emphasized</em></td></tr>
+            <tr><td>&lt;mark&gt;</td><td>Highlighted text</td><td><mark>Marked Text</mark></td></tr>
+        </tbody>
+    </table>
+
+    <h2>Student Registration</h2>
+    <form action="#">
+        <p>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+        </p>
+        <p>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </p>
+        <p>
+            <input type="submit" value="Register Now">
+        </p>
+    </form>
+</body>
+</html>
